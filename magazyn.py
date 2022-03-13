@@ -6,9 +6,11 @@ products_list.append({"name":"Ibufen", "quantity":20, "unit":"kg", "unit_price":
 products_list.append({"name":"Devicap", "quantity":13, "unit":"kg", "unit_price":42.5})
 products_list.append({"name":"Pirolam", "quantity":15, "unit":"op", "unit_price":17})
 
+menu_list = ['add', 'show', 'get', 'exit']
 
 welcome = ''
 while welcome != 'exit':
+    print("Choose from: ", menu_list)
     welcome = input("What would You like to do? ")
 print("Exiting...Bye")
 exit(0)
